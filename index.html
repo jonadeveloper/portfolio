@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>JV -Desarrollo web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!--MENU-->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Jv - Desarrollo web</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="select()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="select()">Sobre mi</a></li>
+                    <li><a href="#skills" onclick="select()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="select()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="select()">Portfolio</a></li>
+                    <li><a href="#contacto" onclick="select()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showHideMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="/img/jona2.png" alt="jv - Desarrollo web">
+                <h1>Jonatan Villalva</h1>
+                <h2>Full stack web Developer</h2>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="container-section">
+            <h2>Sobre mi</h2>
+            <p><span>Hola, soy Jonatan Villalva</span>
+                Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Aperiam doloribus veritatis repellat,
+                provident ad exercitationem porro quo accusamus ea fuga necessitatibus.
+            </p>
+            <div class="file">
+                <!-- DATOS PERSONALES -->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Telefono</strong>
+                            +549 1138619940
+                        </li>
+                        <br>
+                        <li>
+                            <strong>Email</strong>
+                            jvillalva.sistemas@gmail.com
+                        </li>
+                        <br>
+                        <li>
+                            <strong>Dirección</strong>
+                            Quilmes - Buenos Aires, Argentina
+                        </li>
+                        <br>
+                        <li>
+                            <strong>Cargo</strong>
+                            Full stack web developer
+                        </li>
+                    </ul>
+                </div>
+                <!-- INTERESES -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="container-interests">
+                        <div class="interests">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Leer</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <span>Desarrollar</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Aprender</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>Mac os</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-brands fa-android"></i>
+                            <span>Android</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-brands fa-windows"></i>
+                            <span>Windows</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV
+                <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+        <div class="container-section">
+            <h2>skills</h2>
+            <div class="file">
+                <!--TECHNICAL SKILLS-->
+                <div class="col">
+                    <h3>Technical skills</h3>
+                    <div class="skill">
+                        <span>Html & Css</span>
+                        <div class="bar-progress">
+                            <div class="progress">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="bar-progress">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="bar-progress">
+                            <div class="progress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React.js</span>
+                        <div class="bar-progress">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Redux</span>
+                            <div class="bar-progress">
+                                <div class="progress">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Node.js</span>
+                            <div class="bar-progress">
+                                <div class="progress">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>PostgreSQL</span>
+                            <div class="bar-progress">
+                                <div class="progress">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Sequelize.js</span>
+                            <div class="bar-progress">
+                                <div class="progress">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--SOFT SKILLS-->
+                <div class="col">
+                    <h3>Soft skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="bar-progress">
+                            <div class="progress">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="bar-progress">
+                            <div class="progress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="bar-progress">
+                            <div class="progress">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="bar-progress">
+                            <div class="progress">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Pensamiento critico</span>
+                            <div class="bar-progress">
+                                <div class="progress">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Responsabilidad</span>
+                            <div class="bar-progress">
+                                <div class="progress">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Empatia</span>
+                            <div class="bar-progress">
+                                <div class="progress">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Scrum</span>
+                            <div class="bar-progress">
+                                <div class="progress">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="container-section">
+            <h2>Curriculum</h2>
+            <div class="file">
+                <div class="col left">
+                    <h3>Educación</h3>
+                    <div class="item left2">
+                        <h4>Analista de sistemas</h4>
+                        <span class="casa">Istic Analista de sistemas</span>
+                        <span class="data">2019 - No terminado</span>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, rem.
+                        </p>
+                        <div class="conectori">
+                            <div class="circlei"></div>
+                        </div>
+                    </div>
+                    <div class="item left2">
+                        <h4>Full stack web developer</h4>
+                        <span class="casa">Soy Henry - Bootcamp</span>
+                        <span class="data">2022 - 2023</span>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, rem.
+                        </p>
+                        <div class="conectori">
+                            <div class="circlei"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col right">
+                    <h3>Experiencia profesional</h3>
+                    <div class="item right2">
+                        <h4>Wordpress developer</h4>
+                        <span class="casa">Anime Argentina</span>
+                        <span class="data">2021 - Actualidad</span>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, rem.
+                        </p>
+                        <div class="conectord">
+                            <div class="circled"></div>
+                        </div>
+                    </div>
+                    <div class="item right2">
+                        <h4>Full stack web developer</h4>
+                        <span class="casa">Devs learning</span>
+                        <span class="data">2023</span>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, rem.
+                        </p>
+                        <div class="conectord">
+                            <div class="circled"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--PORTFOLIO-->
+    <section id="portfolio" class="portfolio">
+        <div class="container-section">
+            <h2>Portfolio</h2>
+            <div class="gallery">
+                <div class="proyecto">
+                    <img src="img/proyecto1.jpeg" alt="projects1">
+                    <div class="overlay">
+                        <h3>titulo</h3>
+                        <p>subtitulo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="proyecto">
+                    <img src="img/proyecto2.jpeg" alt="projects2">
+                    <div class="overlay">
+                        <h3>titulo</h3>
+                        <p>subtitulo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="proyecto">
+                    <img src="img/proyecto3.jpeg" alt="projects3">
+                    <div class="overlay">
+                        <h3>titulo</h3>
+                        <p>subtitulo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACTO-->
+
+    <section id="contacto" class="contacto">
+        <div class="container-section">
+            <h2>Contacto</h2>
+            <div class="file">
+                <!--FORM-->
+                <div class="col">
+                    <input type="text" placeholder="Tu nombre">
+                    <input type="text" placeholder="Numero de telefono">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--MAPA-->
+                <div class="col">
+                    <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52467.91573488197!2d-58.28173949546429!3d-34.724225043613636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e38e45f5777%3A0x6a86dac21334524f!2sQuilmes%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1678802869576!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Quilmes - Buenos Aires, Argentina
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile"></i>
+                                Telefono: +549 1138619940
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: jvillalva.sistemas@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#inicio" class="top">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
