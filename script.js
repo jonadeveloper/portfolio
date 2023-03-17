@@ -46,7 +46,7 @@ window.onscroll = function(){
 
 function downloadPDF(url, name) {
     const link = document.createElement('a');
-    link.href = "/img/cv-full-stack-JonatanVillalva.pdf";
+    link.href = url;
     link.download = name;
     document.body.appendChild(link);
     link.click();
