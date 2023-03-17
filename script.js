@@ -43,3 +43,12 @@ function efectSkills(){
 window.onscroll = function(){
     efectSkills()
 }
+
+function downloadPDF(url, name) {
+    const link = document.createElement('a');
+    link.href = "/img/cv-full-stack-JonatanVillalva.pdf";
+    link.download = name;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}  
