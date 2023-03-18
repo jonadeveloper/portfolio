@@ -393,11 +393,11 @@
                 <!--FORM-->
                 <div class="col">
                     <form id="form" action="https://formsubmit.co/jvillalva.sistemas@gmail.com" method="POST">
-                        <input type="text" name="name" placeholder="Tu nombre">
-                        <input type="text" name="tel" placeholder="Numero de telefono">
-                        <input type="text" name="email" placeholder="Email">
-                        <input type="text" name="asunto" placeholder="Asunto">
-                        <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <input required=true type="text" name="name" placeholder="Tu nombre">
+                        <input required=true type="text" name="tel" placeholder="Numero de telefono">
+                        <input required=true type="text" name="email" placeholder="Email">
+                        <input required=true type="text" name="asunto" placeholder="Asunto">
+                        <textarea required=true name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
                         <button type="submit" onclick="alertForm()">
                             Enviar
                             <i class="fa-solid fa-paper-plane"></i>
