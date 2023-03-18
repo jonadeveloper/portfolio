@@ -1,6 +1,6 @@
-async function  alertForm (e){
+function  alertForm (e){
         e.preventDefault(e)
-        await Swal.fire({
+        Swal.fire({
         title:'Formulario enviado con exito',
         html: '<span class="colorTextAlert">Te contactare a la brevedad</span>',
         icon: 'success',
