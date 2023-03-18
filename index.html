@@ -392,19 +392,19 @@
             <div class="file">
                 <!--FORM-->
                 <div class="col">
-                    <form action="https://formsubmit.co/jvillalva.sistemas@gmail.com" method="POST">
-                    <input type="text" name="name" placeholder="Tu nombre">
-                    <input type="text" name="tel" placeholder="Numero de telefono">
-                    <input type="text" name="email" placeholder="Email">
-                    <input type="text" name="asunto" placeholder="Asunto">
-                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button onclick="alertForm()">
-                        Enviar
-                        <i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
-                    <input type="hidden" name="_next" value="https://jvdesarrolloweb.vercel.app/">
-                    <input type="hidden" name="_captcha" value="false">
+                    <form id="form" action="https://formsubmit.co/jvillalva.sistemas@gmail.com" method="POST">
+                        <input type="text" name="name" placeholder="Tu nombre">
+                        <input type="text" name="tel" placeholder="Numero de telefono">
+                        <input type="text" name="email" placeholder="Email">
+                        <input type="text" name="asunto" placeholder="Asunto">
+                        <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button type="submit" onclick="alertForm()">
+                            Enviar
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                        <input type="hidden" name="_next" value="https://jvdesarrolloweb.vercel.app/">
+                        <input type="hidden" name="_captcha" value="false">
                     </form>
                 </div>
                 <!--MAPA-->
@@ -444,9 +444,10 @@
             <a href="https://twitter.com/jonaDev_ok" target="_blank"><i class="fa-brands fa-twitter"></i></a>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="/scripts/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="sweetAlert.js"></script>
+    <script src="/scripts/sweetAlert.js"></script>
+    <script src="/scripts/form.js"></script>
 </body>
 
 </html>
