@@ -1,4 +1,4 @@
-function  alertForm (e){
+function  alertForm (){
         e.preventDefault(e)
         Swal.fire({
         title:'Formulario enviado con exito',
