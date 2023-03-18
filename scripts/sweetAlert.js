@@ -1,5 +1,4 @@
 function  alertForm (){
-        e.preventDefault(e)
         Swal.fire({
         title:'Formulario enviado con exito',
         html: '<span class="colorTextAlert">Te contactare a la brevedad</span>',
