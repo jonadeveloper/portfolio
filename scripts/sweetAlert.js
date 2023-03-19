@@ -6,7 +6,7 @@ function alertForm(e){
         icon: 'success',
         width: '30%',
         padding: '1rem',
-        timer: '3000',
+        timer: '7000',
         stopKeydownPropagation: false,
         showConfirmButton: false
     })
