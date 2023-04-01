@@ -425,6 +425,7 @@ progress::-moz-progress-bar{
 /******** Site styles ********/
 
 .about > article{
+    padding-top: 3rem;
     margin-bottom: 2rem;
 }
 
