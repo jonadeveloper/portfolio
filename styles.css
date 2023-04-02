@@ -1,9 +1,9 @@
 /******** Custom Properties ********/
 
 :root{
-    --first-color: #d90062;
-    --first-alpha-color: rgba(217,0,98,0.75);
-    --second-color: #14192d;
+    --first-color: #005ad9;
+    --first-alpha-color: rgba(0, 105, 217, 0.68);
+    --second-color: #000000;
     --second-alpha-color: rgba(20,25,45,0.75);
     --third-color: #501464;
     --third-alpha-color: rgba(80,20,100,0.75);
